@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: 2F2F37;
+    color: #2F2F37;
    }
 
 @media only screen and (max-width: 767.98px) {
@@ -61,7 +61,7 @@
         max-width: 768px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     }
 
    .nav-list {
@@ -104,9 +104,9 @@
     .header-adress-info{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 14px;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.04em;
         color: #434455;
         
     }    
@@ -117,15 +117,12 @@
 }
 
 @media only screen and (min-width: 1158px) {
-    .header {
-      
-    }
-    
+ 
 .container {
         max-width: 1158px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .header-logo {
@@ -143,10 +140,12 @@
     }
 
     .header-nav {
-        margin-right: 332px;
+        margin-right: 340px;
    }
    .header-adress-info{
-        letter-spacing: 0.02em;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
     }
 }
 
