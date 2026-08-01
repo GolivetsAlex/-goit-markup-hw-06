@@ -50,6 +50,9 @@
     .header-nav {
         display: none;
     }
+    address {
+        display: none;
+    }
     .contacts-list{
         display: none;
     }
