@@ -1,6 +1,4 @@
 .header {
-    max-width: 320px;
-    max-height: 56px;
     border-bottom: 1px solid #e7e9fc;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +18,9 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: auto;
+        margin-right: 40px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
 .title-span-studio {
@@ -59,10 +59,9 @@
         max-width: 768px;
         display: flex;
         align-items: center;
-        padding:24px 0 24px;
+
     }
  
-   
   
    .nav-list {
         display: flex;
@@ -89,6 +88,8 @@
     }
 
     .header-menu-link {
+        padding-top: 24px;
+        padding-bottom: 24px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -104,6 +105,7 @@
         line-height: 14px;
         letter-spacing: 0.04em;
         color: #434455;
+        gap: 12px;
     }    
     .menu-btn {
         display: none;
@@ -115,7 +117,6 @@
         max-width: 100%;
         display: flex;
         align-items: center;
-        padding:24px 0 24px;
     }
     
     .header-logo {
