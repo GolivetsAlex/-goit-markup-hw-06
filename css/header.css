@@ -143,6 +143,10 @@
         display: none;
     }
 
+    address {
+        margin-left: 0;
+    }
+
     .header-nav {
         margin-right: 340px;
    }
