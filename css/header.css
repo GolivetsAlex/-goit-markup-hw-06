@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: center;
     color: #2F2F37;
+    margin-left: auto;
    }
 
 @media only screen and (max-width: 767.98px) {
@@ -95,11 +96,14 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
+    address {
+        margin-left: auto;
+    }
      .contacts-list {
         display: flex;
         align-items: center;
-        flex-direction: column; 
-        gap: 12px;   
+        flex-direction: column;
+        gap: 12px;
    }
     .header-adress-info{
         font-family: "Roboto", sans-serif;
@@ -145,7 +149,7 @@
    .header-adress-info{
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.02em;
     }
 }
 
