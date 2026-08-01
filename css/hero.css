@@ -1,12 +1,94 @@
-.solution-section {
+.hero {
     max-width: 320px;
     max-height: 432px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solution-section {
     background-color: #2e2f42;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7)),
+     url(../images/people-office.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: #2e2f42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 432px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.container{
+.solution-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    
+}
+
+.effective-solutions {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.primary-button {
+    margin: 72px 75px;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    
+
+    display: block;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+    background-color: #404bbf;
+}
+
+@media only screen and (min-width: 768px) {
+ .solution-section {
+    width: 768px;
+    max-height: 436px;
+    }
+    .effective-solutions {
+        padding-top: 112px;
+    }
+
+    .primary-button {
+         margin-top: 36px;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .solution-section {
+        width: 1158px;
+        height: 600px;
+    }
+}

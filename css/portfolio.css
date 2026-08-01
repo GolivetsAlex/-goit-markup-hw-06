@@ -1,3 +1,26 @@
+.portfolio-section {
+    padding: 120px 0;
+}
+
+.portfolio-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-flex li{
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-flex img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
