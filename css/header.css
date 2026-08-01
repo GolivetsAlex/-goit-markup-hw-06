@@ -144,12 +144,10 @@
     }
 
     address {
-        margin-left: 0;
+        margin-left: auto;
     }
 
-    .header-nav {
-        margin-right: 340px;
-   }
+    
    .header-adress-info{
         font-size: 16px;
         line-height: 1.5;
