@@ -5,9 +5,10 @@
 }
 
 .container {
-    width: 100%;
+   
     display: flex;
     align-items: center;
+    justify-content: space-between
 }
 
 .header-logo {
@@ -48,37 +49,34 @@
     .header-nav {
         display: none;
     }
-    .header-adress-all
-    {
+    .contacts-list{
         display: none;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .header  {
-        max-width: 768px;
-        display: flex;
-        align-items: center;
 
-    }
  
-  
+    .container {
+        max-width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
    .nav-list {
         display: flex;
         align-items: center;
         gap: 12px;
    }
 
-   .contacts-list {
-        display: flex;
-        align-items: center;
-        flex-direction: column;    
-   }
-
    .header-nav {
-        margin-right: auto;
+        margin-right: 122px;
    }
 
+   .header-logo {
+        margin-right: 120px;
+   }
    .header-menu-link.current{
         font-weight: 500;
         font-size: 16px;
@@ -97,16 +95,22 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
-
+     .contacts-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        gap: 12px;   
+   }
     .header-adress-info{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px; 
         line-height: 14px;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.02em;
         color: #434455;
-        gap: 12px;
+        
     }    
+    
     .menu-btn {
         display: none;
     }
@@ -114,13 +118,18 @@
 
 @media only screen and (min-width: 1158px) {
     .header {
-        max-width: 100%;
-        display: flex;
-        align-items: center;
+      
     }
     
+.container {
+        max-width: 1158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
     .header-logo {
-        margin-right: 40px;
+        margin-right: 76px;
     }
 
     .contacts-list {
@@ -132,7 +141,13 @@
     .menu-btn {
         display: none;
     }
-}
 
+    .header-nav {
+        margin-right: 332px;
+   }
+   .header-adress-info{
+        letter-spacing: 0.02em;
+    }
+}
 
 
