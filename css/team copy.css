@@ -1,0 +1,12 @@
+.our-team-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.team-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
