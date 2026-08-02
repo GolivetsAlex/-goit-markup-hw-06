@@ -1,0 +1,109 @@
+.our-team-section {
+    padding-bottom: 96px;
+}
+
+.our-team-section-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.team-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-card{
+    margin-bottom: 72px;
+    width: 264px;
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.team-card-content {
+    padding: 32px;
+}
+
+.team-card-content .card-title {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-card-content .card-text {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-link {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
+.social-icon {
+    color: #f4f4fd;
+    fill: #f4f4fd;
+}
+
+/*tablet screen*/
+@media screen and (min-width: 768px) {
+   .team-section-title {
+       font-size: 36px
+   }
+
+   .team-list {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 24px;
+       padding-bottom: 96px;
+   }
+}
+/*desktop screen*/
+@media screen and (min-width: 1158px) {
+   .team-section-title {
+       padding-top: 120px;
+   }
+
+   .team-list {
+    padding-bottom: 120px;
+   }
+}
