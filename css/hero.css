@@ -93,10 +93,12 @@
 /* desktop */
 @media only screen and (min-width: 1158px) {
     .solution-section {
-        max-width: 1158px;
+        max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
     }
 
-    
+    .primary-button {
+        margin-top: 48px;
+    }
 }
