@@ -12,6 +12,8 @@
 
     padding-top: 72px;
     padding-bottom: 72px;
+
+    
 }
 
 .solution-container {
@@ -29,6 +31,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 216px;
 }
 
 .primary-button {
@@ -64,7 +67,7 @@
     (-webkit-min-device-pixel-ratio: 2) {
     .solution-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x.jpg);
+            url(../images/people-office@2px.jpg);
     }
 }
 
@@ -79,6 +82,7 @@
     .effective-solutions {
         font-size: 56px;
         line-height: 60px;
+        max-width: 496px;
     }
 
     .primary-button {
@@ -89,7 +93,7 @@
 /* desktop */
 @media only screen and (min-width: 1158px) {
     .solution-section {
-        max-width: 1440px;
+        max-width: 1158px;
         padding-top: 188px;
         padding-bottom: 188px;
     }
