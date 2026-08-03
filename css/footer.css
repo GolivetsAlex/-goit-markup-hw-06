@@ -191,6 +191,10 @@
 }
 
 @media only screen and (min-width: 1158px) {
+    .footer-section {
+        padding: 100px 0;
+    }
+
     .container.footer-container {
         flex-wrap: nowrap;
         align-items: baseline;
@@ -203,6 +207,6 @@
     }
 
     .footer-subscribe {
-        margin-left: 80px;
+        margin-left: auto;
     }
 }
