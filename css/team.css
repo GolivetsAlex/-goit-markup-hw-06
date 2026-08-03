@@ -97,7 +97,7 @@
        flex-wrap: wrap;
        justify-content: center;
        column-gap: 24px;
-       row-gap: 72px;
+       row-gap: 64px;
    }
 }
 /*desktop screen*/

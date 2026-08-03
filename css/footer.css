@@ -58,6 +58,7 @@
 }
 
 .footer-div-social .socials {
+    display: flex;
     justify-content: center;
     gap: 16px;
 }
